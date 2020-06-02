@@ -4,7 +4,11 @@ $(document).ready(function() {
     $("#walrus-hidden").toggle();
   });
   $(".clickable2").click(function() {
-    $("#animal-showing").toggle();
-    $("#animal-hidden").toggle();
+    $("#animal-showing").fadeToggle();
+    $("#animal-hidden").fadeToggle();
+  });
+  $(".clickable3").click(function() {
+    $("#lobster-showing").fadeToggle();
+    $("#lobster-hidden").fadeToggle();
   });
 });

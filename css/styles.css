@@ -6,6 +6,10 @@
   display: none;
 }
 
+#lobster-showing {
+  display: none;
+}
+
 .clickable {
   cursor:pointer;
   color: #0088cc;
@@ -21,6 +25,15 @@
 }
 
 .clickable2:hover {
+  text-decoration: underline;
+}
+
+.clickable3 {
+  cursor:pointer;
+  color: #0088cc;
+}
+
+.clickable3:hover {
   text-decoration: underline;
 }
 
